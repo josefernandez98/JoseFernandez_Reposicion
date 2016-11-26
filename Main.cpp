@@ -169,6 +169,7 @@ int main(int argc, char const *argv[]) {
             cout << "Ingrese el numerador del primer racional:";
             cin >> numerador1;
             cout << endl << "Ingrese el denominador del primer racional:";
+            cout << endl;
             cin >> denominador1;
             if (denominador1 == 0) {
                 for (;denominador1 == 0;) {
