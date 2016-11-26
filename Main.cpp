@@ -190,7 +190,6 @@ int main(int argc, char const *argv[]) {
             }//Fin del if
             cout << endl << "Ingrese el denominador del segundo racional:";
             cin >> denominador2;
-            cout << endl;
             if (denominador2 == 0) {
                 for (;denominador2 == 0;) {
                     cout << "Lo sentimos, no puede ingresar 0 como denominador." << endl;
