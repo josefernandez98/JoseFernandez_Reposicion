@@ -170,7 +170,6 @@ int main(int argc, char const *argv[]) {
             cin >> numerador1;
             cout << endl << "Ingrese el denominador del primer racional:";
             cin >> denominador1;
-            cout << endl;
             if (denominador1 == 0) {
                 for (;denominador1 == 0;) {
                     cout << "Lo sentimos, no puede ingresar 0 como denominador." << endl;
